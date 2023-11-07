@@ -1,0 +1,63 @@
+export const LIST_HEALTH_FACILITIES = 'LIST_HEALTH_FACILITIES';
+
+export const FETCH_HEALTH_FACILITIES_REQUEST = 'FETCH_HEALTH_FACILITIES_REQUEST';
+
+export const FETCH_HEALTH_FACILITIES_SUCCESS = 'FETCH_HEALTH_FACILITIES_SUCCESS';
+
+export const FETCH_HEALTH_FACILITIES_ERROR = 'FETCH_HEALTH_FACILITIES_ERROR';
+
+export const CREATE_HEALTH_FACILITY = 'CREATE_HEALTH_FACILITY';
+
+export const CREATE_HEALTH_FACILITY_REQUEST = 'CREATE_HEALTH_FACILITY_REQUEST';
+
+export const CREATE_HEALTH_FACILITY_SUCCESS = 'CREATE_HEALTH_FACILITY_SUCCESS';
+
+export const CREATE_HEALTH_FACILITY_ERROR = 'CREATE_HEALTH_FACILITY_ERROR';
+
+export const FACILITY_NAME_ERROR = 'Please enter a Facility Name';
+
+export const FACILITY_CODE_ERROR = 'Please enter a Facility Code.';
+
+export const FACILITY_PROVINCE_ERROR = 'Please select a Resident Province .';
+
+export const FACILITY_DISTRICT_ERROR = 'Please select a Resident District.';
+
+export const FACILITY_SECTOR_ERROR = 'Please select a Resident Sector.';
+
+export const FACILITY_CELL_ERROR = 'Please select a Resident Cell.';
+
+export const FACILITY_VILLAGE_ERROR = 'Please select a Resident Village';
+
+export const FACILITY_CATEGORY_ERROR = 'Please select a Facility Category';
+
+export const FACILITY_TYPE_ERROR = 'Please select a Facility Type';
+
+export const FACILITY_DELETE = 'FACILITY_DELETE';
+
+export const FACILITY_DELETE_REQUEST = 'FACILITY_DELETE_REQUEST';
+
+export const FACILITY_DELETE_SUCCESS = 'FACILITY_DELETE_SUCCESS';
+
+export const FACILITY_DELETE_ERROR = 'FACILITY_DELETE_ERROR';
+
+export const FACILITY_UPDATE = 'FACILITY_UPDATE';
+
+export const FACILITY_UPDATE_REQUEST = 'FACILITY_UPDATE_REQUEST';
+
+export const FACILITY_UPDATE_SUCCESS = 'FACILITY_UPDATE_SUCCESS';
+
+export const FACILITY_UPDATE_ERROR = 'FACILITY_UPDATE_ERROR';
+
+export const FACILITY_CLEAR_STORE = 'FACILITY_CLEAR_STORE';
+
+export const FACILITY_ASSET = 'FACILITY_ASSET';
+
+export const FACILITY_ASSET_REQUEST = 'FACILITY_ASSET_REQUEST';
+
+export const FACILITY_ASSET_SUCCESS = 'FACILITY_ASSET_SUCCESS';
+
+export const FACILITY_ASSET_ERROR = 'FACILITY_ASSET_ERROR';
+
+export const FACILITY_PACKAGE_ERROR = 'Please select a Facility Packages .';
+
+export const FACILITY_SERVICE_ERROR = 'Please select a Facility Services .';

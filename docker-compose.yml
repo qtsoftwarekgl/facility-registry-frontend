@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+  facility-registry-frontend:
+    image: registry.gitlab.com/rbc5/facility-registry-frontend:uat
+    container_name: facility_registry_frontend
+    ports:
+      - "7300:80"
+    restart: always
+    logging:
+      options:
+        max-size: 5m
+    deploy:
+      resources:
+        limits:
+          memory: 2048M
+        reservations:
+          memory: 1024M
